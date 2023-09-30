@@ -1,0 +1,7 @@
+&i2c1 {
+     ahrs: wt901@50 {
+             compatible = "witmotion,wt901";
+             label = "witmotion";
+             reg = <0x50>;
+     };
+};
