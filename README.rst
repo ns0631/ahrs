@@ -16,11 +16,16 @@ The overlay is only configured with the STM32 Nucleo-F446RE board at the moment.
 You can add an overlay in ``boards``.
 
 Wire the 3v3 pin to VCC on the Witmotion.
+
 Wire the ground on the nucleo to ground on Witmotion.
+
 Wire the serial clock (SCL) pin on the AHRS to PB_8.
+
 Wire the serial data (SDA) pin on the AHRS to PB_9.
 
 You can change the last two in the overlay, if you'd like.
+
+You can find all of these pins on the `pinout <https://os.mbed.com/platforms/ST-Nucleo-F446RE/>`.
 
 Building and Running
 ********************
@@ -39,4 +44,4 @@ To see the output, run:
 Further Reading
 ***************
 
-If you'd like to learn more about Zephyr's i2c peripheral, you can check out *[this fantastic tutorial](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/lessons/lesson-6-serial-com-i2c/).
+If you'd like to learn more about Zephyr's i2c peripheral, you can check out `this fantastic tutorial <https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/lessons/lesson-6-serial-com-i2c/>`.
