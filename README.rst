@@ -26,7 +26,11 @@ Building and Running
 ********************
 
 For a STM32 Nucleo-F446RE, run the following from the parent directory:
+
+Build:
 ``west build -b nucleo_f446re -p auto ahrs``
+
+Run:
 ``west flash``
 
 To see the output, run:
@@ -35,4 +39,4 @@ To see the output, run:
 Further Reading
 ***************
 
-If you'd like to learn more about Zephyr's i2c peripheral, you can check out [this fantastic tutorial](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/lessons/lesson-6-serial-com-i2c/).
+If you'd like to learn more about Zephyr's i2c peripheral, you can check out *[this fantastic tutorial](https://academy.nordicsemi.com/courses/nrf-connect-sdk-fundamentals/lessons/lesson-6-serial-com-i2c/).
